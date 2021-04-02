@@ -1,10 +1,10 @@
 import './App.css';
-import GetRequestErrorHandling from "./GetRequestErrorHandling";
+import GetRequestAsyncAwait from "./GetRequestAsyncAwait";
 
 function App() {
   return (
     <div className="App">
-      <GetRequestErrorHandling />
+      <GetRequestAsyncAwait />
     </div>
   );
 }
